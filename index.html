@@ -1,54 +1,85 @@
-~<!DOCTYPE html>
+~
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
 
     <nav class="main-navigation">
-      
-        <a href="#about-us">About us</a>
-        <a href="#skills">Skills</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Contact</a>
+        <ul class="menu-list">
+            <li><a href="#about">O mnie</a></li>
+            <li><a href="#skills">Umiejętności</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+        </ul>
+    </nav>
 
-</nav>
 
-section><header><h2 id="about-us">About us</h2></header>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus provident voluptas deserunt vitae neque totam, fugit repellendus voluptatum iusto aliquid eos repudiandae blanditiis nostrum sunt consectetur, architecto officiis, reiciendis tempora.</p>
-</section>
-
-<section ><h2 id="skills">Skills</h2>
-<header><h1>Nagłówke główny</h1></header>
-<div class="skill"><h3>Nagłówke</h3><p>Przykładowy tekst</p></div>
-<div class="skill"><h3>Nagłówke 2</h3><p>Przykładowy tekst</p></div>
-<div class="skill"><h3>Nagłówke 3</h3><p>Przykładowy tekst</p></div>
-<div class="skill"><h3>Nagłówke 4</h3><p>Przykładowy tekst</p></div>
-</section>
-
-<section><h1 id="portfolio">Portfolio</h1>
-    <div class="portfolio-item"><img src="port.png" alt="port"></div>
-    <div class="portfolio-item"><img src="port2.jpg" alt="port2"></div>
-    <div class="portfolio-item"><img src="port3.png" alt="port2"></div>
+    <section>
+        <header>
+            <h2 id="about-us">O mnie</h2>
+        </header>
+        <article>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus provident voluptas deserunt vitae neque
+            totam, fugit repellendus voluptatum iusto aliquid eos repudiandae blanditiis nostrum sunt consectetur,
+            architecto officiis, reiciendis tempora.</p></article>
     </section>
 
-    section><h1 id="contact">Contact</h1>
-<header><h2>Paweł Wiatros</h2></header>
-<address>Dane osobowe</address>
+    <section>
+        <h2 id="skills">Umiejętności</h2>
+        <header>
+            <h1>Nagłówke główny</h1>
+        </header>
+        <div class="skill">
+            <h3>Nagłówke</h3>
+            <p>Przykładowy tekst</p>
+        </div>
+        <div class="skill">
+            <h3>Nagłówke 2</h3>
+            <p>Przykładowy tekst</p>
+        </div>
+        <div class="skill">
+            <h3>Nagłówke 3</h3>
+            <p>Przykładowy tekst</p>
+        </div>
+        <div class="skill">
+            <h3>Nagłówke 4</h3>
+            <p>Przykładowy tekst</p>
+        </div>
+    </section>
 
-<form action="/action_page.php">
-    <label for="fname">Imię:</label><br>
-    <input type="text" id="fname" name="fname"><br>
-    <label for="lname">Temat:</label><br>
-    <input type="text" id="lname" name="lname"><br><br>
-    <textarea name="Komentarz" cols="50" rows="10">Proszę, wpisz wiadomość...</textarea>
-    <input type="submit" value="Wyslij">
-  </form>
-</section>
+    <section>
+        <h1 id="portfolio">Portfolio</h1>
+        <div class="portfolio-item"><img src="port.png" alt="port"></div>
+        <div class="portfolio-item"><img src="port2.jpg" alt="port2"></div>
+        <div class="portfolio-item"><img src="port3.png" alt="port2"></div>
+    </section>
+
+    <section><h1 id="contact">Kontakt</h1>
+    <header>
+        <h2>Paweł Wiatros</h2>
+    </header>
+    <address>
+        <h3>Dane osobowe</h3>
+    </address>
+
+    <form action="/action_page.php">
+        <label for="fname">Imię:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Temat:</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+        <textarea name="Komentarz" cols="50" rows="10">Proszę, wpisz wiadomość...</textarea>
+        <input type="submit" value="Wyslij">
+    </form>
+    </section>
 
 
 </body>
+
 </html>
